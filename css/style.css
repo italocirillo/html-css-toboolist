@@ -50,7 +50,7 @@ body{
     margin-top: 35px;
     padding: 10px 30px;
     width: 100%;
-    background-color: red;
+    background-color: white;
 }
 .bottone{
     padding: 5px 10px;
@@ -72,13 +72,91 @@ body{
 .sezione-lista{
 
     width: 100%;
-    background-color: yellow;
+    background-color: white;
     margin-top: 5px;
 }
 ul{
     list-style-type: none;
+    padding-left: 0;
+}
+.elemento-lista{
+    padding: 20px 40px;
+}
+.elemento-sottolista{
+    height: 30px;
 }
 
 h2{
     font-size: 1.5rem;
+}
+/*SIMBOLO CERCHIATO*/
+.cerchio{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border: 1.5px solid #7acab9;
+    color: #7acab9;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 10px;
+    text-align: center;
+    vertical-align: center;
+
+}
+.simbolo{
+    font-size: 0.8em;
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+    color: #7acab9;
+    line-height: 10px;
+    vertical-align: middle;
+
+}
+.cerchio-rosso{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border: 1.5px solid #ec574d;
+    color: #ec574d;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 10px;
+    text-align: center;
+    vertical-align: center;
+
+}
+.simbolo-croce{
+    font-size: 0.8em;
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+    color: #ec574d;
+    line-height: 10px;
+    vertical-align: middle;
+}
+/*ETICHETTA*/
+.etichetta{
+    height: 10px;
+    background-color: #45abea;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+#etichetta-viola{
+    background-color: #9c72e4;
+}
+#etichetta-verde{
+    background-color: #63c0a9;
+}
+#etichetta-arancio{
+    background-color: #f29e33;
+}
+#etichetta-fucsia{
+    background-color: #d863a1;
+}
+#etichetta-verde-chiaro{
+    background-color: #b0c925;
 }
