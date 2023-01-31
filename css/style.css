@@ -9,7 +9,7 @@
 /*HEADER*/
 
 header{
-    background-color: aqua;
+    background-color: white;
 }
 
 .logo{
@@ -32,13 +32,35 @@ h1{
 
 
 /*MAIN*/
-main{
+body{
     background-color: #f6f8f9;
 }
 
+/*CONTENITORE*/
 .contenitore{
-    width: 65%;
-    height: 900px;
-    background-color: blue;
+    width: 70%;
     margin:0 auto;
+}
+
+/*SEZIONE BOTTONI*/
+.sezione-bottoni{
+    margin-top: 35px;
+    padding: 10px 30px;
+    width: 100%;
+    background-color: red;
+}
+.bottone{
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: solid 2px;
+}
+.blu{
+    background-color: #47adf1;
+    border-color:  #47adf1;
+    color: white;
+}
+.grigio{
+    background-color: white;
+    color: #d3d8db;
+    border-color:  #d3d8db;
 }
