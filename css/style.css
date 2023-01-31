@@ -41,7 +41,7 @@ body{
 
 /*CONTENITORE*/
 .contenitore{
-    width: 70%;
+    width: 50%;
     margin:0 auto;
 }
 
@@ -84,6 +84,7 @@ ul{
 }
 .elemento-sottolista{
     height: 30px;
+    margin: 10px;
 }
 
 h2{
