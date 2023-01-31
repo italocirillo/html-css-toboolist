@@ -5,7 +5,10 @@
     box-sizing: border-box;
 }
 
-
+/*COMMON*/
+.entity{
+    font-size:0.8rem;
+}
 /*HEADER*/
 
 header{
@@ -63,4 +66,19 @@ body{
     background-color: white;
     color: #d3d8db;
     border-color:  #d3d8db;
+}
+
+/*SEZIONE LISTA*/
+.sezione-lista{
+
+    width: 100%;
+    background-color: yellow;
+    margin-top: 5px;
+}
+ul{
+    list-style-type: none;
+}
+
+h2{
+    font-size: 1.5rem;
 }
