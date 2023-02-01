@@ -1,6 +1,6 @@
 /*RESET*/
 *{
-    border: 0;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -51,11 +51,13 @@ body{
     padding: 10px 30px;
     width: 100%;
     background-color: white;
+    border-radius: 10px 10px 0                  px 0px;
 }
 .bottone{
     padding: 5px 10px;
     border-radius: 8px;
     border: solid 2px;
+    cursor: pointer;
 }
 .blu{
     background-color: #47adf1;
@@ -146,18 +148,18 @@ h2{
     border-radius: 10px;
     padding: 5px;
 }
-#etichetta-viola{
+.etichetta-viola{
     background-color: #9c72e4;
 }
-#etichetta-verde{
+.etichetta-verde{
     background-color: #63c0a9;
 }
-#etichetta-arancio{
+.etichetta-arancio{
     background-color: #f29e33;
 }
-#etichetta-fucsia{
+.etichetta-fucsia{
     background-color: #d863a1;
 }
-#etichetta-verde-chiaro{
+.etichetta-verde-chiaro{
     background-color: #b0c925;
 }
